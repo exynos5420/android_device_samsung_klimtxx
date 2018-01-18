@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/klimtlte
+LOCAL_PATH := device/samsung/klimtxx
 
 # Platform
 BOARD_VENDOR := samsung
@@ -34,10 +34,10 @@ BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 # Bootloader
-TARGET_OTA_ASSERT_DEVICE := klimtlte
+TARGET_OTA_ASSERT_DEVICE := klimtxx
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_deathly_klimtlte_defconfig
+TARGET_KERNEL_CONFIG := lineageos_deathly_klimtxx_defconfig
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
@@ -56,7 +56,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/exynos5420-common/sepolicy
-BOARD_SEPOLICY_DIRS += device/samsung/klimtlte/sepolicy
+BOARD_SEPOLICY_DIRS += device/samsung/klimtxx/sepolicy
 
 # Cyanogen Hardware
 BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw
